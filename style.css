@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+nav ul li {
+    display: inline-flex;
+    flex-direction: row;
+}
