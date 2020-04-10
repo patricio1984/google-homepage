@@ -12,25 +12,25 @@ html {
 
 nav {
     height: 5vh;
+    width: 100vw;
+    display: flex;
 }
 
 .right-nav {
     display: inline-flex;
     flex-direction: row;
-    margin: 22px 0;
-    margin-left: 670px;
-    width: 30%;
+    width: 50vw;
     justify-content: flex-end;
     align-items: center;
-    position: block; 
+    margin-right: 20px; 
 }
 
 .left-nav {
     display: inline-flex;
     flex-direction: row;
-    margin: 22px;
-    width: 30%;
-    position: relative;   
+    width: 50vw;
+    align-items: center;
+    margin-left: 20px;    
 }
 
 nav ul li {
