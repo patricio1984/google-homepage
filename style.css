@@ -92,17 +92,6 @@ img {
     box-shadow: 5px 3px 7px -2px rgba(156,156,156,1);
 }
 
-#search-glass {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    font-size: 20px;
-    top: -30px;
-    left: 36.5%;
-    color:#8d8d8d; 
-    width: 20px;
-   
-}
 
 
 
