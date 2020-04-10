@@ -63,4 +63,47 @@ nav ul li a:hover {
     color: #727272;
 }
 
+img {
+    display: block;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.google-search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 550px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: .5px solid #c5c5c5;
+}
+
+.google-search:focus {
+    box-shadow: 5px 3px 7px -2px rgba(156,156,156,1);
+    outline: transparent;
+}
+
+.google-search:hover {
+    box-shadow: 5px 3px 7px -2px rgba(156,156,156,1);
+}
+
+#search-glass {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    top: -30px;
+    left: 36.5%;
+    color:#8d8d8d; 
+    width: 20px;
+   
+}
+
+
+
 
