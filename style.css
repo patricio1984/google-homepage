@@ -92,7 +92,38 @@ img {
     box-shadow: 5px 3px 7px -2px rgba(156,156,156,1);
 }
 
+.button-area {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
 
+.button-area button {
+    padding: 8px 14px;
+    margin: 30px 5px;
+    border: none;
+    color: #727272;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-area button:hover {
+    border: 0.7px solid #a3a3a3;
+    box-shadow: 0.5px 0.5px 5px 0.5px #a3a3a3;
+}
+
+.button-area a {
+    text-decoration: none;
+}
+
+.button-area a:visited {
+    color:#727272;
+}
 
 
 
