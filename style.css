@@ -5,7 +5,62 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul li {
+html {
+    width: 100%;
+}
+
+.right-nav {
     display: inline-flex;
     flex-direction: row;
+    margin: 22px 0;
+    margin-left: 670px;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+    position: block; 
 }
+
+.left-nav {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 22px;
+    width: 30%;
+    position: relative;   
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 13px;
+    color: #636363;
+    padding-left: 15px;
+}
+
+#grid-button {
+    padding: 0 22px;
+    color: #636363;
+    font-size: 19px;
+}
+
+.sign-in {
+    color: #ffffff;
+    background-color: #3782f3;
+    border: none;
+    font-weight: 700;
+    padding: 7px 12px;
+}
+
+.sign-in:active {
+    background-color: #2557a1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #636363;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #727272;
+}
+
+
